@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/start-rating-svg.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="bg-secondary">
+            <div class="container text-center py-2">
+                <p class="text-[12px] lg:text-sm text-white">
+                    LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
+                    <span class="pl-4">23:00:00</span>
+                </p>
+            </div>
+        </div>
+        <div class="py-4 lg:border-b lg:border-neutral-400">
+            <div class="container">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between lg:gap-8">
+                    <div class="order-1 flex items-center space-x-4 lg:-ml-9">
+                        <button class="lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </button>
+                        <a href="">
+                            <img srcset="./assets/images/logo.png 2x" alt="" class="w-[119px] lg:w-full" />
+                        </a>
+                    </div>
+                    <form action=""
+                        class="w-full order-3 lg:order-2 flex gap-2 border-t mt-4 lg:mt-0 border-neutral-400 pt-4 lg:w-auto lg:pt-0 lg:border-0">
+                        <input type="text"
+                            class="py-1 pl-6 pr-1 rounded-full bg-white border border-[#F4F4F4] w-full lg:w-[400px]"
+                            placeholder="Search" />
+                        <button type="submit" class="bg-primary rounded-full w-[58px] lg:w-12 h-12">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white mx-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="order-2 lg:order-3 flex items-center gap-2 lg:gap-6 lg:-mr-9">
+                        <a href="" class="text-sm lg:text-base">Your Account</a> |
+                        <button class="relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            <span
+                                class="text-[12px] absolute -top-1 -right-1 w-5 h-5 bg-red-500 rounded-full text-white">1</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:block">
+            <div class="container">
+                <nav>
+                    <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
+                        <li><a href="" class="block py-4">Shop All</a></li>
+                        <li><a href="" class="block py-4">Flower</a></li>
+                        <li><a href="" class="block py-4">Edibles</a></li>
+                        <li><a href="" class="block py-4">Concentrates</a></li>
+                        <li><a href="" class="block py-4">Mushrooms</a></li>
+                        <li><a href="" class="block py-4">Promotions/Bundles</a></li>
+                        <li><a href="" class="block py-4">Support</a></li>
+                        <li><a href="" class="block py-4">Rewards</a></li>
+                        <li><a href="" class="block py-4">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="bg-[#F2F6F4] h-[96px] flex items-center">
+        <div class="container">
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="grid grid-cols-[64px,auto] border-r border-[#C3D2CC]">
+                    <div>
+                        <div class="bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center">
+                            <img src="./assets/icons/new/truck-fast.svg" alt="" class="w-[26px]" />
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h3 class="text-[#1A1E26] text-[20px] font-medium">Reliable Shipping</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[64px,auto] border-r border-[#C3D2CC]">
+                    <div>
+                        <div class="bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center">
+                            <img src="./assets/icons/new/safe-home.svg" alt="" class="w-[26px]" />
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h3 class="text-[#1A1E26] text-[20px] font-medium">Reliable Shipping</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[64px,auto]">
+                    <div>
+                        <div class="bg-white rounded-full w-[48px] h-[48px] flex items-center justify-center">
+                            <img src="./assets/icons/new/coin.svg" alt="" class="w-[26px]" />
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h3 class="text-[#1A1E26] text-[20px] font-medium">Reliable Shipping</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-[36px]">
+        <div class="container flex gap-x-[32px]">
+            <div class="filters w-[304px] border-r border-[#F4F4F4] flex flex-col gap-[20px] pr-[32px]">
+                <div class="pt-[17px] pb-[24px] flex gap-[8px] border-b border-[#F4F4F4]">
+                    <p class="text-[18px] font-normal">Filters</p>
+                </div>
+                <div class="Product-Category border-b border-[#F4F4F4] pb-[20px] flex flex-col gap-[20px]">
+                    <p class="text-[#717378] text-[12px] leading-[18px] tracking-[1px]">PRODUCT CATEGORY</p>
+                    <div>
+                        <form class="flex flex-col gap-3">
+                            <div class="flex items-center gap-3">
+                                <input checked id="default-radio-1" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-1"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-1"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-2" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-2"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-2"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-3" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-3"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-3"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-4" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-4"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-4"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-5" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-5"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-5"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-6" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-6"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-6"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-7" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-7"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-7"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-8" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-8"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-8"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-9" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-9"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-9"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-10" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-10"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-10"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-11" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-11"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                                <label for="default-radio-11"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">12</p>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-radio-12" type="radio" value="" name="default-radio"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-radio-12"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                                <label for="default-radio-12"
+                                    class="text-[#9D9EA2] text-[14px] font-light leading-[21px]">
+                                    <p class="pl-3 inline border-l border-[#F4F4F4] m-0">430</p>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="FIlter By Price pb-[24px] border-b border-[#F4F4F4]">
+                    <form class="flex flex-col">
+                        <div class="pb-[40px]">
+                            <p>FILTER BY PRICE</p>
+                        </div>
+                        <div class="block pb-[20px]">
+                            <div class="display relative w-full">
+                                <span id="min" class="absolute -top-8" style="left: 0%;">0</span>
+                                <span id="max" class="absolute -top-8" style="left: 90%;">100</span>
+                            </div>
+                            <div class="range-slide relative h-1 w-full">
+                                <div class="slide absolute top-0 h-[2px] bg-[#F4F4F4] left-[9px] right-[9px]">
+                                    <div class="line absolute left-0 right-0 top-0 h-[2px] bg-black" id="line"
+                                        style="left: 0%; right: 0%;">
+                                    </div>
+                                    <span
+                                        class="thumb absolute z-10 text-left border-2 border-black bg-white rounded-[50%] outline-none -top-[5px] h-[12px] w-[12px] -ml-[9px]"
+                                        id="thumbMin" style="left: 0%;"></span>
+                                    <span
+                                        class="thumb absolute z-10 text-left border-2 border-black bg-white rounded-[50%] outline-none -top-[5px] h-[12px] w-[12px] -ml-[9px]"
+                                        id="thumbMax" style="left: 100%;"></span>
+                                </div>
+                                <input id="rangeMin" type="range" max="100" min="0" step="1" value="0"
+                                    class="range-input">
+                                <input id="rangeMax" type="range" max="100" min="0" step="1" value="100"
+                                    class="range-input">
+                            </div>
+                        </div>
+                        <div>
+                            <button
+                                class="rounded-full bg-[#17AF26] px-8 py-[9.5px] text-white text-[14px] font-normal">Apply</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="Order-By border-b border-[#F4F4F4] pb-[20px] flex flex-col gap-[20px]">
+                    <p class="text-[#717378] text-[12px] leading-[18px] tracking-[1px]">ORDER BY</p>
+                    <div>
+                        <form class="flex flex-col gap-3">
+                            <div class="flex items-center gap-3">
+                                <input checked id="default-by-1" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-1"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Default
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-2" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-2"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Review Count
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-3" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-3"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-4" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-4"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-5" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-5"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-6" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-6"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-7" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-7"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-8" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-8"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Cannabis
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input id="default-by-9" type="radio" value="" name="default-by"
+                                    class="w-5 h-5 text-[#17AF26] bg-white border-gray-300 focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-by-9"
+                                    class="text-sm font-normal text-gray-900 dark:text-gray-300">Sales
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="Order-By border-b border-[#F4F4F4] pb-[20px] flex flex-col gap-[20px]">
+                    <p class="text-[#717378] text-[12px] leading-[18px] tracking-[1px]">FILTER BY REVIEWS</p>
+                    <div>
+                        <form class="flex flex-col gap-3">
+                            <div class="flex items-center gap-[8px]">
+                                <input checked id="default-checkbox" type="checkbox" value=""
+                                    class="w-[22px] h-[22px] text-[#17AF26] bg-white border-gray-300 rounded focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="default-checkbox"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <div class="my-rating-4" data-rating="5"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-[8px]">
+                                <input id="checked-checkbox" type="checkbox" value=""
+                                    class="w-[22px] h-[22px] text-[#17AF26] bg-white border-gray-300 rounded focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="checked-checkbox"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <div class="my-rating-4" data-rating="4"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-[8px]">
+                                <input id="checked-checkbox" type="checkbox" value=""
+                                    class="w-[22px] h-[22px] text-[#17AF26] bg-white border-gray-300 rounded focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="checked-checkbox"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <div class="my-rating-4" data-rating="3"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-[8px]">
+                                <input id="checked-checkbox" type="checkbox" value=""
+                                    class="w-[22px] h-[22px] text-[#17AF26] bg-white border-gray-300 rounded focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="checked-checkbox"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <div class="my-rating-4" data-rating="2"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-[8px]">
+                                <input id="checked-checkbox" type="checkbox" value=""
+                                    class="w-[22px] h-[22px] text-[#17AF26] bg-white border-gray-300 rounded focus:ring-[#17AF26] dark:focus:ring-[#17AF26] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="checked-checkbox"
+                                    class="text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    <div class="my-rating-4" data-rating="1"></div>
+                                </label>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        class="text-[#17AF26] text-[14px] font-medium bg-[#F3FBF4] px-8 p-[9.5px] rounded-full">Clear
+                        Filters</button>
+                </div>
+            </div>
+
+
+            <div class="shop w-[976px] flex flex-col">
+                <div class="h-[68px] border-b border-[#F4F4F4] pb-[24px] flex justify-between">
+                    <p class="font-normal text-[24px] text-[#1A1E26] tracking-tighter leading-[44px]">Shop</p>
+                    <select name="choice" class="border border-[#F4F4F4] rounded-full px-[20px]">
+                        <option value="1" selected>Short By Lates</option>
+                        <option value="2">Second Value</option>
+                        <option value="3">Third Value</option>
+                    </select>
+                </div>
+                <div class="w-[864px] h-[190px] flex flex-col gap-[16px] pt-[32px]">
+                    <h1 class="text-[#17AF26] font-medium text-[20px]">Cannabis</h1>
+                    <p class="text-[#717378] leading-[24px] font-normal text-[16px]">
+                        Here at WestCoastSupply’s “ cannabis section, we showcase the best Indica, Hybrid, and Sativa
+                        medical cannabis strain selections at the best prices online. You can be assured that all our
+                        strains go through a strict screening process to ensure that all your cannabis needs are
+                        top-quality. All of our flowers are sourced from reputable growers, based in British Columbia,
+                        Canada. We have hige grade selection comes from growers that produce AAAA+ quality cannabis
+                        flowers and have many years of experience in the cannabis industry. You are guaranteed to be
+                        receiving high-quality flowers at the best prices online with our unbeatable sales!
+                    </p>
+                </div>
+                <div class="top-selling pt-[64px] pb-[32px]">
+                    <div class="rounded-[16px] py-[24px] px-[32px] flex flex-col gap-[24px] bg-[#F2F6F4]">
+                        <h1 class="font-medium text-[24px] text-[#060709]">Top Selling</h1>
+                        <div>
+                            <div class="swiper best-seller">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide w-[291px]">
+                                        <div>
+                                            <div
+                                                class="h-[240px] flex items-center justify-center bg-[#FFFFFF] rounded-[8px] bg-cover bg-center bg-no-repeat">
+                                                <img src="./assets/images/products/product1.png" alt="" />
+                                            </div>
+                                            <div class="product-content text-center py-5">
+                                                <a href=""
+                                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                                <h3 class="mb-4">
+                                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match
+                                                        Shatter/Budder 28g (4 X
+                                                        7G)</a>
+                                                </h3>
+                                                <div class="rating mb-4">
+                                                    <span>4.6/5 | 135</span>
+                                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                                </div>
+                                                <span
+                                                    class="inline-block mb-3 bg-[#FFFFFF] py-2 px-4 rounded-lg text-[#05422C]">Indica
+                                                    70%</span>
+                                                <div class="mb-4">
+                                                    <span class="text-[#EB2606]">$200.00</span>
+                                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                                </div>
+                                                <ul
+                                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3 *:border-[#FFFFFF]">
+                                                    <li>28g</li>
+                                                    <li>1/2lb</li>
+                                                    <li>1/4lb</li>
+                                                </ul>
+                                                <a href="" class="btn">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-content">
+                    <div class="grid grid-cols-2 gap-6 lg:grid-cols-3 lg:gap-8">
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px] relative">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                                <span
+                                    class="out-of-stock absolute rounded-full py-5 px-8 text-sm text-white bg-[rgba(26, 30, 38, 0.3)]">
+                                    Out of stock
+                                </span>
+                                <span
+                                    class="absolute bg-[#F2BC1B] text-white font-normal text-[14px] leading-[21px] rounded-tl-[8px] rounded-br-[8px] py-[8px] px-[16px] top-0 left-0">
+                                    $60 ounce
+                                </span>
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div>
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div>
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                    </div>
+                </div>
+                <section
+                    class="my-10 bg-[url('../assets/images/bg.jpg')] bg-no-repeat bg-center bg-cover rounded-xl p-12">
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <a href=""
+                                class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase tracking-[4px]">CONCENTRATES</a>
+                            <h3 class="mb-5">
+                                <a href="" class="text-[32px]/[120%] -tracking-[1.5px] text-white font-semibold">Mix And
+                                    Match Shatter/Budder 28g (4 X 7G)</a>
+                            </h3>
+                            <div class="rating mb-5">
+                                <span class="text-white">4.6/5 | 135</span>
+                                <a href="" class="text-[#C8C9CB]">Reviews</a>
+                            </div>
+
+                            <ul class="mb-5 flex space-x-3 items-center *:border *:rounded *:py-2 *:px-3 text-white">
+                                <li>28g</li>
+                                <li>1/2lb</li>
+                                <li>1/4lb</li>
+                            </ul>
+                            <div class="flex items-center space-x-10">
+                                <a href="" class="btn p-0 !h-[56px] !leading-[56px]">Add To Cart</a>
+                                <div>
+                                    <span class="text-[#F2BC1B] text-xl">$102.00</span>
+                                    <span class="text-[#C8C9CB] text-sm line-through">$200.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="swiper mix-match bg-white p-5 bg-[rgba(255,255,255,0.2)] rounded-xl">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide flex items-center justify-center">
+                                        <img src="./assets/images/Buddha-Bomb-Green-Apple-Gummies-768x768-1 1.png"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide flex items-center justify-center">
+                                        <img src="./assets/images/Buddha-Bomb-Green-Apple-Gummies-768x768-1 1.png"
+                                            alt="" />
+                                    </div>
+                                    <div class="swiper-slide flex items-center justify-center">
+                                        <img src="./assets/images/Buddha-Bomb-Green-Apple-Gummies-768x768-1 1.png"
+                                            alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-mix-match-pagination"></div>
+                        </div>
+                    </div>
+                </section>
+                <div class="tabs-content">
+                    <div class="grid grid-cols-2 gap-6 lg:grid-cols-3 lg:gap-8">
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px] relative">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                                <span
+                                    class="out-of-stock absolute rounded-full py-5 px-8 text-sm text-white bg-[rgba(26, 30, 38, 0.3)]">
+                                    Out of stock
+                                </span>
+                                <span
+                                    class="absolute bg-[#F2BC1B] text-white font-normal text-[14px] leading-[21px] rounded-tl-[8px] rounded-br-[8px] py-[8px] px-[16px] top-0 left-0">
+                                    $60 ounce
+                                </span>
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div class="product-item">
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div>
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                        <div>
+                            <div
+                                class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat rounded-[8px]">
+                                <img src="./assets/images/products/product1.png" alt="" />
+                            </div>
+                            <div class="product-content text-center py-5">
+                                <a href=""
+                                    class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                                <h3 class="mb-4">
+                                    <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X
+                                        7G)</a>
+                                </h3>
+                                <div class="rating mb-4">
+                                    <span>4.6/5 | 135</span>
+                                    <a href="" class="text-[#C8C9CB]">Reviews</a>
+                                </div>
+                                <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
+                                <div class="mb-4">
+                                    <span class="text-[#EB2606]">$200.00</span>
+                                    <span class="text-[#C8C9CB] text-base">/gram</span>
+                                </div>
+                                <ul
+                                    class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                                    <li>28g</li>
+                                    <li>1/2lb</li>
+                                    <li>1/4lb</li>
+                                </ul>
+                                <a href="" class="btn">Add To Cart</a>
+                            </div>
+                        </div>
+                        <!--End product-item-->
+                    </div>
+                </div>
+                <div class="flex justify-between items-center h-[60px] border-t border-[#F4F4F4] pt-[24px]">
+                    <p class="text-[#717378] text-[14px] font-light leading-[21px]">Showing 1-30 of 393 results</p>
+                    <div class="flex items-center">
+                        <button
+                            class="flex items-center gap-2 px-[22px] py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-full select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button">
+                            <svg class="w-2.5 h-2.5 rtl:rotate-180" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M5 1 1 5l4 4" />
+                            </svg>
+                        </button>
+                        <div class="flex items-center gap-[8px] text-[14px] font-normal">
+                            <button
+                                class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    1
+                                </span>
+                            </button>
+                            <button
+                                class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    2
+                                </span>
+                            </button>
+                            <button
+                                class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-full bg-gray-900 text-center align-middle font-sans text-xs font-medium uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    3
+                                </span>
+                            </button>
+                            <button
+                                class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    4
+                                </span>
+                            </button>
+                            <button
+                                class="relative h-10 max-h-[40px] w-6 max-w-[40px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    ...
+                                </span>
+                            </button>
+                            <button
+                                class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                type="button">
+                                <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                    55
+                                </span>
+                            </button>
+                        </div>
+                        <button
+                            class="flex items-center gap-2 px-[22px] py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-full select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button">
+                            <svg class="w-2.5 h-2.5 rtl:rotate-180" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 9 4-4-4-4" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="bg-[#05422C] p-8 lg:p-16 rounded-2xl">
+                <h2
+                    class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase">
+                    UNLOCK 20% OFF YOUR <br class="hidden lg:block" />FIRST ORDER
+                </h2>
+                <p class="text-xl text-[#C3D2CC] my-10">
+                    Reveal coupon code by entering your email
+                </p>
+                <form action="" class="border-t border-[#346654] pt-10 flex items-center space-x-8">
+                    <input type="text" class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
+                        placeholder="Email Address" />
+                    <button class="btn !h-[72px] min-w-[160px]">Reveal coupon</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-[120px]">
+        <div class="container">
+            <div class="grid lg:grid-cols-12 gap-8">
+                <div class="lg:col-span-4">
+                    <img src="./assets/images/Logo-footer.svg" alt="" />
+                    <p class="text-[#9D9EA2] mt-8 font-normal">
+                        #1 Canadian top rated online dispensary that meets the customers needs
+                        in every single medical marijuana aspect. The team here at TopShelfBC is
+                        heavily involved in the Canadian cannabis industry for over 15 years. We
+                        strive to provide the top quality products, service and care at the
+                        lowest prices you’ll ever find.
+                    </p>
+                </div>
+                <div class="lg:col-span-8">
+                    <div class="mb-4">
+                        <h2 class="text-xl text-white uppercase mb-5">Quick Link</h2>
+                        <ul class="columns-2 *:mb-4">
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Track Your Order</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Shop All</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Flower</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Edibles</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Concentrates</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Refunds</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Mushrooms</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Promotions / Bundles</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Support</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Reward</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Blog</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Shipping Faq</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <h2 class="text-xl text-white uppercase mb-5">CONTACT US</h2>
+                        <ul>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">info@topshelfbc.cc</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <h2 class="text-xl text-white uppercase mb-5">More</h2>
+                        <ul class="columns-2 *:mb-4">
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Canada</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in New Brunswick</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Prince Edward Island</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Northwest Territories</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Saskatchewan</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Manitoba</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Quitebec</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in British Columbia</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Ontario</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Alberta</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="./assets/images/payment.png" alt="" />
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center lg:justify-between border-t border-[#46494F] py-8 mt-8">
+                <p class="order-2 lg:order-1 text-[#9D9EA2] text-sm">
+                    © 2022 Top Shelf BC. All Rights Reserved.
+                </p>
+                <ul class="order-1 lg:order-2 flex items-center space-x-5">
+                    <li><a href="" class="text-[#9D9EA2] text-sm">Out Of Stock</a></li>
+                    <li><a href="" class="text-[#9D9EA2] text-sm">Privacy Policy</a></li>
+                    <li><a href="" class="text-[#9D9EA2] text-sm">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jquery.start-rating.svg.js"></script>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
